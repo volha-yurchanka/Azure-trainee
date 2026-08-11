@@ -3,3 +3,7 @@ resource "random_string" "suffix" {
   upper  = false
   special = false
 }
+
+locals {
+    environment_prefix = "olia-dev"
+}
