@@ -21,3 +21,22 @@ resource "random_string" "map" {
   upper  = false
   special = false
 }
+
+resource "random_string" "if" {
+  
+  count = var.enabled ? 1 : 0
+
+  length = 6
+  upper  = false
+  special = false
+}
+
+# module "module" {
+#  source = "hashicorp/module/random"
+#  version = "1.0.0"
+#}
+
+#module "module2" {
+#  source = "hashicorp/module/random"
+#  version = "1.0.0"
+#}
