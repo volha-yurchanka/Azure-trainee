@@ -17,3 +17,12 @@ variable "region" {
 variable "region_instance_count" {
   type = map(string)
 }
+variable "region_set" {
+  type = set(string)
+}
+variable "sku_set" {
+  type = object({
+    kind = string
+    tier = string
+  })
+}

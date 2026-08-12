@@ -7,3 +7,7 @@ region_instance_count = {
   "us-east-1" = 3
 }
 region_set = ["us-west-1", "us-east-1"]
+sku_set = {
+    kind = "P"
+    tier = "Business"
+}
