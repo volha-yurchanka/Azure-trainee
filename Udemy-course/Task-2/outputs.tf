@@ -20,3 +20,6 @@ output "primary_region_instance_count" {
 output "kind" {
   value = var.sku_set.kind
 }
+output "charlie" {
+  value = module.charlie.random_string_rando
+}

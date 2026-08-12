@@ -40,3 +40,8 @@ resource "random_string" "if" {
 #  source = "hashicorp/module/random"
 #  version = "1.0.0"
 #}
+
+module "charlie" {
+  source = "./moodules/rando"
+  length = 8
+}
