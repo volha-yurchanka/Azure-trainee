@@ -14,3 +14,10 @@ resource "random_string" "list" {
   upper  = false
   special = false
 }
+
+resource "random_string" "map" {
+  for_each = var.region_instance_count
+  length = 6
+  upper  = false
+  special = false
+}
