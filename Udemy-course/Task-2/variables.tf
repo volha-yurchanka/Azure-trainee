@@ -36,3 +36,9 @@ variable "sku_set" {
     tier = string
   })
 }
+
+variable "enabled" {
+  type        = bool
+  default     = true
+  description = "A boolean variable to enable or disable the resource."
+}
