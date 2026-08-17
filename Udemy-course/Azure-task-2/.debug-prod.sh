@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # set the subscription
-export ARM_SUBSCRIPTION_ID="111-111-111-111-111"
+export ARM_SUBSCRIPTION_ID="8999b3c0-35d0-4d50-870d-048f32c71e67"
 
 # set the application / environment
 export TF_VAR_application_name="observability"
