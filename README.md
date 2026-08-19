@@ -16,3 +16,5 @@ Quick access to practice tasks and labs.
 
 ### LMS Tasks
 * [Task 2](LMS-tasks/Task-2)
+* [Task 3](LMS-tasks/Task-3)
+* [Task 4](LMS-tasks/Task-4)
