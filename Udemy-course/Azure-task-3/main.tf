@@ -10,6 +10,9 @@ resource "random_string" "keyvault_suffix" {
   special = false
   upper   = false
 }
+data "azurerm_client_config" "current" {
+
+}
 resource "azurerm_key_vault" "main" {
   name                        = "kv-${var.application_name}-${var.environment_name}-${random_string.keyvault_suffix.result}"
   location                    = var.primary_location
